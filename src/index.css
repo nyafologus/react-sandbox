@@ -12,3 +12,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+
+.round {
+	border-radius: .25rem!important;
+}
+
+.leckerli {
+  font-family: 'Leckerli One';
+}
+
+.medium-ish {
+	font-size: 1.5rem;
+}
+
+.biggo {
+	font-size: 4.5rem;
+}
