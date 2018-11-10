@@ -29,7 +29,7 @@ class CarouselComponent extends Component {
                 <Mask overlay="black-light"></Mask>
               </View>
               <CarouselCaption>
-                <h3 className="h3-responsive leckerli biggo mb-2">Unique and adaptable</h3>
+                <h3 className="h3-responsive text-center leckerli biggo mb-2">Unique and adaptable</h3>
                 <p className="medium-ish">Feigns dead when attacked</p>
               </CarouselCaption>
             </CarouselItem>
@@ -39,7 +39,7 @@ class CarouselComponent extends Component {
                 <Mask overlay="black-strong"></Mask>
               </View>
               <CarouselCaption>
-                <h3 className="h3-responsive leckerli biggo mb-2">Nocturnal</h3>
+                <h3 className="h3-responsive text-center leckerli biggo mb-2">Nocturnal</h3>
                 <p className="medium-ish" >Smart and skilled hunter</p>
               </CarouselCaption>
             </CarouselItem>
@@ -49,7 +49,7 @@ class CarouselComponent extends Component {
                 <Mask overlay="black-slight"></Mask>
               </View>
               <CarouselCaption>
-                <h3 className="h3-responsive leckerli biggo mb-2">Intelligent</h3>
+                <h3 className="h3-responsive text-center leckerli biggo mb-2">Intelligent</h3>
                 <p className="medium-ish">cooperative and highly social</p>
               </CarouselCaption>
             </CarouselItem>
@@ -59,7 +59,7 @@ class CarouselComponent extends Component {
                 <Mask overlay="black-light"></Mask>
               </View>
               <CarouselCaption>
-                <h3 className="h3-responsive leckerli biggo mb-2">Led by females</h3>
+                <h3 className="h3-responsive text-center leckerli biggo mb-2">Led by females</h3>
                 <p className="medium-ish">Packs work together effectively</p>
               </CarouselCaption>
             </CarouselItem>
