@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+// import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Container, Row, Col, Input, Button } from "mdbreact";
 
 function GreetingHook()  {
@@ -8,13 +9,17 @@ function GreetingHook()  {
 	// 	setName(e.target.value);
 	// };
 
+	let handleNameChange = e => {
+		setName(e.target.value);
+	}
+
 	return (
 		<form className="container">
 			<Input
 				className="grey-text"
 				label="Name"
-				defaultvalue={"Molly"}
-				// onChange={handleNameChange}
+				value={name}
+				onChange={handleNameChange}
 			/>
 		</form>
 	);
