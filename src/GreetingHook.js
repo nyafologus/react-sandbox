@@ -17,7 +17,7 @@ function GreetingHook()  {
 		<form className="container">
 			<Input
 				className="grey-text"
-				label="Name"
+				label="Name of the prettiest dog but with hooks:"
 				value={name}
 				onChange={handleNameChange}
 			/>

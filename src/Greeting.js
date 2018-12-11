@@ -23,7 +23,7 @@ class Greeting extends React.Component {
 			<form className="container">
 				<Input
 					className="grey-text"
-					label ="Name"
+					label ="Name of the most gorgeous dog:"
 					value={this.state.name} 
 					onChange={this.handleNameChange}>
 				</Input>
